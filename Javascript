@@ -1,0 +1,33 @@
+
+const milkPrice = 1.5; 
+
+
+function getMilk(milkMoney) {  
+    let bottles = 0;
+    while (milkMoney >= milkPrice) {
+        milkMoney = milkMoney - milkPrice;
+        bottles++;
+    } 
+        console.log("leaveHouse");
+        console.log("moveRight");
+        console.log("moveRight");
+        console.log("moveUp");
+        console.log("moveUp");
+        console.log("moveUp");
+        console.log("moveUp");
+        console.log("moveRight");
+        console.log("moveRight");
+        console.log("moveleft");
+        console.log("moveLeft");
+        console.log("moveDown");
+        console.log("moveDown");
+        console.log("moveDown");
+        console.log("moveDown");
+        console.log("moveLeft");
+        console.log("moveLeft");
+        console.log("enterHouse");
+        console.log(`I bought ${bottles} at ${milkPrice} dollars each!`);
+      
+
+    
+  }
